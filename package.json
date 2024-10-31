@@ -5,12 +5,16 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "build": "tsc",
+    "build:babel": "babel ./src --out-dir lib --extensions .ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-env": "^7.13.10",
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "@babel/preset-typescript": "^7.13.0",
     "@eslint/js": "^9.13.0",
     "@types/jest": "^29.5.3",
