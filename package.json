@@ -1,15 +1,16 @@
 {
   "name": "@montu/maps-backend-challenge",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "Address Autocomplete API",
+  "main": "./dist/index.ts",
+  "types": "./src/index.ts",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
     "build": "tsc",
     "build:babel": "babel ./src --out-dir lib --extensions .ts"
   },
-  "author": "",
+  "author": "Daniel Demonceau",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.25.9",
