@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Address Autocomplete API",
   "main": "./dist/index.ts",
-  "types": "./src/index.ts",
+  "types": "./src/types.ts",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
