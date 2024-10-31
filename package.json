@@ -2,12 +2,11 @@
   "name": "@montu/maps-backend-challenge",
   "version": "1.0.0",
   "description": "Address Autocomplete API",
-  "main": "./dist/index.ts",
-  "types": "./src/types.ts",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "build": "tsc",
+    "build": "tsc --sourceMap",
     "build:babel": "babel ./src --out-dir lib --extensions .ts"
   },
   "author": "Daniel Demonceau",
