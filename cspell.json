@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "asfasffasfasafsafs",
+    "Dauqp",
+    "envalid",
+    "montu",
+    "Parens",
+    "Tomtom",
+    "tseslint",
+    "typeahead"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**"
+  ],
+  "dictionaries": [
+    "typescript",
+    "node"
+  ]
+}
