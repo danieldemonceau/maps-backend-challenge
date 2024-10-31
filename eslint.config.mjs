@@ -10,6 +10,7 @@ export default [
   {
     rules: {
       'no-unused-vars': 'error',
+      'no-undef': 'off',
       semi: ['error', 'always'],
       quotes: ['error', 'single'],
     },
